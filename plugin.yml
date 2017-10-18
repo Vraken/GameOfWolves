@@ -1,0 +1,31 @@
+version: 0.5
+author: Vraken
+main: fr.vraken.gameofwolves.GameOfWolves
+description: Plugin de Game of Wolves
+name: VrakenGameOfWolves
+commands:
+  start:
+    description: Commencer la partie
+    usage: /start
+  gwinfo:
+    description: Affiche les détails de votre role et les commandes que vous pouvez exécuter
+    usage: /gwinfo
+  gwvote:
+    description: Permet de voter pour un autre joueur lors du vote se déroulant à chaque épisode au levée du jour. Le joueur ayant accumulé le plus de votes perdra la moitié de sa vie. Le vote n'a aucun effet sur une égalité.
+    usage: /gwote
+  gwreveal:
+    description: Permet de connaitre le role d'un autre joueur. Le role de ce joueur sera écrit dans le chat global, mais pas son pseudo. Utilisable une fois par épisode pendant une minute après la tombée de la nuit.
+    usage: /gwreveal
+  gwshoot:
+    description: Fait perdre la moitié de sa vie à un joueur. Utilisable une fois par partie pendant 30 secondes à votre mort.
+    usage: /gwshoot
+  gwprotect:
+    description: Permet de conférer Protection à un autre joueur. Vous ne pouvez pas vous désigner vous-meme, ni désigner le meme joueur deux fois d'affilée. Utilisable une fois par épisode pendant une minute après la tombée de la nuit.
+    usage: /gwprotect
+  gwrevive:
+    description: Permet de faire revivre le dernier joueur mort. Utilisable une fois par partie.
+    usage: /gwrevive
+  gwdamage:
+    description: Fait perdre la moitié de sa vie à un joueur. Utilisable une fois par partie.
+    usage: /gwdamage
+    
